@@ -14,24 +14,24 @@ namespace Week6
             ////ელემენტს ლუწ რიცხვებს შეინახავს 1 მასივში ხოლო კენტებს მეორეში .
             //Console.WriteLine("Enter the length of array: ");
             //int size = Convert.ToInt32(Console.ReadLine());
-            //int [] array = new int[size];
-            //int[] oddArray=new int[size];
+            //int[] array = new int[size];
+            //int[] oddArray = new int[size];
             //int[] evenArray = new int[size];
             //var evenCount = 0;
             //var oddCount = 0;
             //Console.WriteLine($"Enter {size} values for the array:");
-            //for (int i = 0; i < size; i++) 
+            //for (int i = 0; i < size; i++)
             //{
 
             //    array[i] = int.Parse(Console.ReadLine());
             //    if (array[i] % 2 == 0)
             //    {
-            //        oddArray[evenCount] = array[i];
+            //        evenArray[evenCount] = array[i];
             //        evenCount++;
             //    }
             //    else
             //    {
-            //        evenArray[oddCount] = array[i];
+            //        oddArray[oddCount] = array[i];
             //        oddCount++;
             //    }
             //}
@@ -47,7 +47,7 @@ namespace Week6
             #endregion
 
             #region Task 2
-            //დაწერეთ პროგრამა რომელიც მასივში დათვლის თითოეული ელემენტის რაოდენობას და გამოიტანს მათ ჯამს.
+            ////დაწერეთ პროგრამა რომელიც მასივში დათვლის თითოეული ელემენტის რაოდენობას და გამოიტანს მათ ჯამს.
             //Console.WriteLine("Enter the length of array: ");
             //int size = Convert.ToInt32(Console.ReadLine());
             //int[] array = new int[size];
@@ -70,21 +70,49 @@ namespace Week6
             #endregion
 
             #region Task 3
-            //დაწერეთ პროგრამა რომელიც გვიჩვენებს ტოპ n მონაწილის შედეგს . მაგ(1 2 3 4 5 6 7 8 9 10)
-            Console.WriteLine("Enter the Number of Participants: ");
-            int number = int.Parse(Console.ReadLine());
-            int[] results = new int[number];
-            Console.WriteLine($"Enter {number} results of the Participants:");
-            for (int i = 0; i < number; i++)
-            {
-                results[i] = int.Parse(Console.ReadLine());
-            }
-            Console.WriteLine("Enter how many top results to display:");
-            var amount = int.Parse(Console.ReadLine());
-            foreach (var item in results.OrderBy(g => g).TakeLast(amount))
-            {
-                Console.WriteLine(item);
-            }
+            ////დაწერეთ პროგრამა რომელიც გვიჩვენებს ტოპ n მონაწილის შედეგს . მაგ(1 2 3 4 5 6 7 8 9 10)
+            //Console.WriteLine("Enter the Number of Participants: ");
+            //int number = int.Parse(Console.ReadLine());
+            //int[] results = new int[number];
+            ////Console.WriteLine($"Enter {number} results of the Participants:");
+            //// Create an instance of the Random class
+            //Random random = new Random();
+            //for (int i = 0; i < number; i++)
+            //{
+            //    //results[i] = int.Parse(Console.ReadLine());
+            //    results[i] = random.Next(0, 11); // Generates a random integer
+            //}
+            //Console.WriteLine("Enter how many top results to display:");
+            //var amount = int.Parse(Console.ReadLine());
+            //foreach (var item in results.OrderBy(g => g).TakeLast(amount))
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Classwork 1
+            ////პალინდრომია თუ არა სიტყვა
+            //Console.WriteLine("Enter word here");
+            //string word = Console.ReadLine();
+            //string note="";
+            //for (int i = 0; i < word.Length/2; i++) 
+            //{
+            //    if (word[i] == word[word.Length - 1 - i])
+            //    {
+            //        note = "Palindrome";
+            //    }
+            //    else
+            //    {
+            //        note = "Not A Palindrome";
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine(note);
+            #endregion
+
+            #region Classwork 2
+            //Bubble Sort
+
             #endregion
         }
     }
