@@ -104,12 +104,12 @@ namespace Week7
             #endregion
 
             #region Task 6.2
-            //6.2 დაწერეთ პროგრამა რომელიც ამობეჭდავს N სიგრძის მქონდე ელემენტს სტრინგიდან
-            int N = 7;
-            string sentence = "Hello World I love Programming";
-            var result = sentence.Split(' ').Where(word => word.Length >= N).ToArray();
+            ////6.2 დაწერეთ პროგრამა რომელიც ამობეჭდავს N სიგრძის მქონდე ელემენტს სტრინგიდან
+            //int N = 7;
+            //string sentence = "Hello World I love Programming";
+            //var result = sentence.Split(' ').Where(word => word.Length >= N).ToArray();
 
-            Console.WriteLine(string.Join(", ", result));
+            //Console.WriteLine(string.Join(", ", result));
 
             #endregion
         }
