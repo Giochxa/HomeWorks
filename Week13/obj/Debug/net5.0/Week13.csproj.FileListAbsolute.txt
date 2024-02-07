@@ -1,0 +1,16 @@
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.exe
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.deps.json
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.runtimeconfig.json
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.runtimeconfig.dev.json
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.dll
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\bin\Debug\net5.0\Week13.pdb
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.AssemblyInfoInputs.cache
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.AssemblyInfo.cs
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.csproj.CoreCompileInputs.cache
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.sourcelink.json
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.dll
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\refint\Week13.dll
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.pdb
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\Week13.genruntimeconfig.cache
+C:\Users\george.chkhaidze\source\repos\Homework 2\Week13\obj\Debug\net5.0\ref\Week13.dll

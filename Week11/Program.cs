@@ -15,11 +15,13 @@ namespace Week11
             //LastLine();
             //multiplication("5");
             //XMLFile("programming", 2);
-            birthday();
+            //birthday();
 
+            Console.WriteLine(FindFirstUniqueIndex("AABAB"));
+            Console.WriteLine(CountPart("qwert wer we"));
         }
 
-    
+
         #region Task 1
         static void LastLine()
         {
@@ -71,9 +73,9 @@ namespace Week11
                 return;
             }
 
-            string filePath = @"C:\Users\george.chkhaidze\source\repos\Homework 2\Week11\multi.txt";
+            //string filePath = @"C:\Users\george.chkhaidze\source\repos\Homework 2\Week11\multi.txt";
 
-            using (StreamWriter sw = new StreamWriter(filePath))
+            using (StreamWriter sw = new StreamWriter(multiFile))
             {
                 for (int i = 1; i <= 9; i++)
                 {
@@ -85,7 +87,7 @@ namespace Week11
                 }
             }
 
-            Console.WriteLine($"Multiplication table for {n} has been written to {filePath}");
+            Console.WriteLine($"Multiplication table for {n} has been written to {multiFile}");
 
         }
         #endregion
@@ -147,6 +149,53 @@ namespace Week11
             Console.WriteLine($"Birthday: {birthday.ToString("MMMM dd, yyyy")}");
             Console.WriteLine($"Days left until the birthday: {daysLeft}");
 
+        }
+        #endregion
+
+        #region Practice 1
+
+        static int FindFirstUniqueIndex(string input)
+        {
+            Dictionary<char, int> charIndex = new Dictionary<char, int>();
+            Dictionary<char, bool> isDuplicate = new Dictionary<char, bool>();
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                char currentChar = input[i];
+
+                if (charIndex.ContainsKey(currentChar))
+                {
+                    isDuplicate[currentChar] = true;
+                }
+                else
+                {
+                    charIndex[currentChar] = i;
+                    isDuplicate[currentChar] = false;
+                }
+            }
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (!isDuplicate[input[i]])
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
+        #endregion
+        #region Practice 2
+        static int CountPart(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return 0;
+            }
+
+            string[] parts = input.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            return parts.Length;
         }
         #endregion
     }
