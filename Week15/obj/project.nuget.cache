@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "kdjgahtb59XLYwtOW13I40Jd0/Z28i0aLM+y124vGsGdiKyvyO5wt+iMYaS2xC0PZYLndcFyxRq93IKf6p5tJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\george.chkhaidze\\source\\repos\\Homework 2\\Week15\\Week15.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\george.chkhaidze\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

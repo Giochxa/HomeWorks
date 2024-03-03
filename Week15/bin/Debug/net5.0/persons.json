@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 5,
+    "CreateDate": "2024-02-26T22:37:42.036Z",
+    "Firstname": "George",
+    "Lastname": "The Great",
+    "JobPosition": "string",
+    "Salary": 0,
+    "WorkExperience": 0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": "string"
+    }
+  },
+  {
+    "Id": 6,
+    "CreateDate": "2024-02-26T21:54:40.836Z",
+    "Firstname": "string",
+    "Lastname": "string",
+    "JobPosition": "string",
+    "Salary": 0,
+    "WorkExperience": 0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": "string"
+    }
+  },
+  {
+    "Id": 0,
+    "CreateDate": "2024-02-26T22:30:30.626Z",
+    "Firstname": "David",
+    "Lastname": "string",
+    "JobPosition": "string",
+    "Salary": 500,
+    "WorkExperience": 0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": "string"
+    }
+  },
+  {
+    "Id": 0,
+    "CreateDate": "2024-02-26T23:15:35.181Z",
+    "Firstname": "string",
+    "Lastname": "string",
+    "JobPosition": "string",
+    "Salary": 0,
+    "WorkExperience": 0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": ""
+    }
+  }
+]
